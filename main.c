@@ -99,7 +99,7 @@ int main() {
     switch (print_result) {
         case 1:
         {
-            printf("Не удалось открыть файл, чтобы считать массив");
+            printf("Не удалось открыть файл, чтобы считать массив\n");
             return 0;
         }
         case 2:
@@ -109,7 +109,7 @@ int main() {
         }
         case 3:
         {
-            printf("В файле нет массива с номером %d", array_number);
+            printf("В файле нет массива с номером %d\n", array_number);
             return 0;
         }
         default:
